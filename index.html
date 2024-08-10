@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>check out page</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <nav id="mainNav">
+        <h1 class="brand">Cafe Coffee Day</h1>
+    </nav>
+    <div class="page">
+        <section class="order Box"> 
+            <h2 class="boxTitle">Your Order Summary </h2>
+            <ul class="items">
+                <li class="item">
+                    <div class="itemsQuality ">
+                        1x
+                    </div>
+                    <div class="itemsTitle ">
+                        cappuccino
+                    </div>
+                    <div class="itemsPrice ">
+                        $3.99
+                    </div>
+                    <ul class="itemsOptionList ">
+                        <li class="itemOption">
+                            Light Foam
+                        </li>
+                    </ul>
+                    
+                </li>
+
+                <li class="item">
+                    <div class="itemsQuality ">
+                        1x
+                    </div>
+                    <div class="itemsTitle ">
+                        cappuccino
+                    </div>
+                    <div class="itemsPrice ">
+                        $3.99
+                    </div>
+                    <ul class="itemsOptionList ">
+                        <li class="itemOption">
+                            Light Foam
+                        </li>
+                    </ul>
+                    
+                </li>
+                <li class="item">
+                    <div class="itemsQuality ">
+                        1x
+                    </div>
+                    <div class="itemsTitle ">
+                        cappuccino
+                    </div>
+                    <div class="itemsPrice ">
+                        $3.99
+                    </div>
+                    <ul class="itemsOptionList ">
+                        <li class="itemOption">
+                            Light Foam
+                        </li>
+                    </ul>
+                    
+                </li>
+                
+            </ul>
+
+            <div class="addItems">
+                <button class="addItemsBtn" > Add more items</button>
+            </div>
+        </section>
+
+        <section class="payments">
+            <div class="nameBox Box">
+                <h2 class="BoxTitle">Customer Info</h2>
+                <div class="inputGroup">
+                    <label for="name" class="userInputLabel">Name:</label>
+                    <input type="text" id="name" class="userInput" name="name" placeholder="Enter your name">
+                </div> 
+            </div>
+                <div class="ccBox Box">
+                    <h2>Payments Details</h2>
+                    <div class="inputGroup">
+                        <label for="ccNumber" class="userInputLabel">Credit Card Number</label>
+                        <input type="text" id="ccNumber" class="userInput" name="ccNumber" placeholder="Enter your Credit Card Number">
+                    </div>
+                    <div class="inputGroup">
+                        <label for="CVV" class="userInputLabel">CVV </label>
+                        <input type="text" id="CVV" class="userInputShortInput" name="ccNumber" placeholder="Enter your CVV">
+                    </div>
+                </div>
+            
+        </section>
+
+        <section class="total">
+            <table class="totalsTable">
+                <tbody>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$20</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>$1.5</td>
+                    </tr>
+                    <tr class="finalTotals">
+                        <td >Total</td>
+                        <td>21.5</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="checkout"  type="button">Place Your Order</button>
+        </section>
+    </div>
+</body>
+</html>
