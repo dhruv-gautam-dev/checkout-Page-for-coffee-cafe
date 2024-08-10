@@ -2,4 +2,4 @@ This is a coffee cafe checkout page where a customer can order and pay their bil
 
 This is a Responsive web page build by using HTML and CSS.
 
-Backend process for this web page is in process ..
+Backend process for this web page is in process ...
